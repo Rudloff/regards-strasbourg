@@ -1,0 +1,171 @@
+body, div {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+
+.ui-header .ui-title {
+    margin:0;
+    padding-top: 0.5em;
+}
+
+header {
+    background: linear-gradient(#B1DF0F, #9AC30B) repeat scroll 0 0 #9AC30B;
+}
+
+h2 {
+    color:white;
+    background-color:#242424;
+    margin:0;
+    padding:0.5em;
+    border-top:thin solid white;
+}
+
+.catlist li {
+    border-top: 1px solid #C2C4C3;
+    background: linear-gradient(#2A2A2A, #202020) repeat scroll 0 0 #202020;
+}
+
+.catlist li a{
+    color:white;
+    text-decoration:none;
+    font-size:larger;
+}
+
+.ui-header .ui-btn-left, .ui-header .ui-btn-right, .ui-footer .ui-btn-left, .ui-footer .ui-btn-right, .ui-header-fixed.ui-fixed-hidden .ui-btn-left, .ui-header-fixed.ui-fixed-hidden .ui-btn-right {
+  top: 0;
+}
+
+.ui-header {
+    min-height:116px;
+}
+
+.cats {
+    list-style-type:none;
+    padding-left:0;
+    margin:0;
+}
+
+.cats li {
+    display:inline-block;
+    height:120px;
+    vertical-align:top;
+    text-align:center;
+    background: linear-gradient(#252525 50px, #121112) repeat scroll 0 0 #121112;
+    background-position:50px;
+}
+
+.cats li a {
+    text-decoration:none;
+    color:white;
+    display:block;
+    height:100%;
+}
+
+.cats li .title {
+    display:block;
+    padding-top:0.5em;
+}
+
+.cats .cat_icon {
+    height:60px;
+}
+.budget .triangle_right_wrapper,
+.budget .cat_icon {
+    background: linear-gradient(#EC2366, #A91E4D) repeat scroll 0 0 #A91E4D;
+}
+.culture .triangle_right_wrapper,
+.culture .cat_icon {
+    background: linear-gradient(#D31194, #96136C) repeat scroll 0 0 #96136C;
+}
+.democratie .triangle_right_wrapper,
+.democratie .cat_icon {
+    background: linear-gradient(#B50CC1, #830E8B) repeat scroll 0 0 #830E8B;
+}
+.divers .triangle_right_wrapper,
+.divers .cat_icon {
+    background: linear-gradient(#19BD5A, #159D4B) repeat scroll 0 0 #159D4B;
+}
+.education .triangle_right_wrapper,
+.education .cat_icon {
+    background: linear-gradient(#70C826, #60A520) repeat scroll 0 0 #60A520;
+}
+.environnement .triangle_right_wrapper,
+.environnement .cat_icon {
+    background: linear-gradient(#AFDB12, #91B10F) repeat scroll 0 0 #91B10F;
+}
+
+.cats .cat_icon img {
+    max-height:35px;
+    margin-top:10px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 12.5px 12.5px 12.5px;
+    border-color: transparent transparent #222222 transparent;
+    margin:auto;
+    margin-top:-12px;
+}
+
+.triangle_right {
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #252525;
+    margin-top:15px;
+}
+
+.triangle_right_wrapper {
+    position:absolute;
+    top:0;
+    right:0;
+    width:20px;
+    height:100%;
+}  
+
+
+.graph {
+    margin:auto;
+    display:block;
+    height:auto;
+}
+
+.results.ui-table-reflow.ui-responsive {
+    margin:auto;
+    display:table;
+}
+
+.results td,
+.results th {
+    border: 2px solid white;
+    color:white;
+    text-align:left;
+    padding-left:2ex;
+}
+
+.results thead th {
+    color:#242424;
+}
+
+@media (max-width: 600px) { 
+    .graph {
+        max-width:300px;
+        max-height:150px;
+    }
+    .title img{
+        max-width:90%;
+        min-width:311px;
+        min-height:116px;
+    }
+    
+    .small_header {
+        min-height:0;
+        height:70px;
+    }
+    .back img,
+    .small_title img{
+        max-height:55px;
+    }
+}
